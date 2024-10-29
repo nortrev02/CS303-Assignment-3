@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="A3Functions.cpp" />
     <ClCompile Include="CS303-Assignment-3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A3Functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
