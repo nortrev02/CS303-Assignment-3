@@ -18,9 +18,6 @@
     <ClCompile Include="CS303-Assignment-3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="A3Functions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="A3Functions.h">

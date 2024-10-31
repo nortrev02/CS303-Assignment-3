@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="A3Functions.cpp" />
     <ClCompile Include="CS303-Assignment-3.cpp" />
   </ItemGroup>
   <ItemGroup>
