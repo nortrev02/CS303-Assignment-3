@@ -7,7 +7,11 @@ template <typename item> class A3Queue {
 private:
 	list<item> internalQueue;
 public:
-	item getFront();
 	void push(item);
+	void pop();
+	item getFront();
+	int size();
+	bool empty();
+	void move_to_rear();
 
 };
