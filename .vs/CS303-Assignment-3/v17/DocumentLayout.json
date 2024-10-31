@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\starf\\Documents\\School Assignments\\CS303-Assignment-3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{873E15D4-51FF-4349-BB47-26082605F4CC}|CS303-Assignment-3.vcxproj|C:\\Users\\starf\\Documents\\School Assignments\\CS303-Assignment-3\\CS303-Assignment-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{873E15D4-51FF-4349-BB47-26082605F4CC}|CS303-Assignment-3.vcxproj|solutionrelative:CS303-Assignment-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{873E15D4-51FF-4349-BB47-26082605F4CC}|CS303-Assignment-3.vcxproj|C:\\Users\\starf\\Documents\\School Assignments\\CS303-Assignment-3\\A3Functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{873E15D4-51FF-4349-BB47-26082605F4CC}|CS303-Assignment-3.vcxproj|solutionrelative:A3Functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873E15D4-51FF-4349-BB47-26082605F4CC}|CS303-Assignment-3.vcxproj|C:\\Users\\starf\\Documents\\School Assignments\\CS303-Assignment-3\\CS303-Assignment-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{873E15D4-51FF-4349-BB47-26082605F4CC}|CS303-Assignment-3.vcxproj|solutionrelative:CS303-Assignment-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +26,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "A3Functions.h",
               "DocumentMoniker": "C:\\Users\\starf\\Documents\\School Assignments\\CS303-Assignment-3\\A3Functions.h",
               "RelativeDocumentMoniker": "A3Functions.h",
-              "ToolTip": "C:\\Users\\starf\\Documents\\School Assignments\\CS303-Assignment-3\\A3Functions.h",
-              "RelativeToolTip": "A3Functions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\starf\\Documents\\School Assignments\\CS303-Assignment-3\\A3Functions.h*",
+              "RelativeToolTip": "A3Functions.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-29T15:04:14.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CS303-Assignment-3.cpp",
               "DocumentMoniker": "C:\\Users\\starf\\Documents\\School Assignments\\CS303-Assignment-3\\CS303-Assignment-3.cpp",
               "RelativeDocumentMoniker": "CS303-Assignment-3.cpp",
