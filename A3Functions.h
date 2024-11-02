@@ -1,5 +1,6 @@
 #pragma once
 #include <list>
+#include <vector>
 #include <iostream>
 using namespace std;
 
@@ -15,3 +16,7 @@ public:
 	void move_to_rear();
 
 };
+
+int recursiveLinearSearch(vector<int>, int, int);
+
+void linkedListInsertionSort(list<int> );
