@@ -28,15 +28,15 @@ template <typename item> void A3Queue<item>::move_to_rear() {
     internalQueue.push_back(temporary);
 }
 
-int recursiveLinearSearch(vector<int> items, int target, int pos_first) { // code copied, still need to make return the last instance not first
-    if (pos_first == items.size()) {
+int recursiveLinearSearch(vector<int> items, int target, int pos_last) { // code copied, still need to make return the last instance not first
+    if (pos_last == items[0]) {
         return -1;
     }
-    if (target == items[pos_first]) {
-    return pos_first;
+    if (target == items[pos_last]) {
+    return pos_last;
     }
     else {
-        return recursiveLinearSearch(items, target, pos_first + 1);
+        return recursiveLinearSearch(items, target, pos_last - 1);
     }
 }
 
@@ -44,22 +44,25 @@ void linkedListInsertionSort(list<int> num) { // code copied, still needs conver
     int i, j, key;
     bool insertionNeeded = false;
     for (j = 1; j < num.size(); j++) {
-        key = num[j]; insertionNeeded = false; for (i = j - 1; i >= 0; i--) {
+        key = num[j];
+        insertionNeeded = false;
+        for (i = j - 1; i >= 0; i--) {
             if (key < num[i]) {
                 num[i + 1] = num[i]; // larger values move right
                 insertionNeeded = true;
             }
-            else{
+            else {
                 break;
             }
             if (insertionNeeded) {
                 num[i + 1] = key; //Put key into its proper location
             }
+        }
+    }
 }
 
 
-int main()
-{
+int main() {
     A3Queue<int> theNumbers;
     theNumbers.push(9);
     cout << theNumbers.getFront() << endl;
